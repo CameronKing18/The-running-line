@@ -23,8 +23,8 @@ def start_2(message):
         def send_message(message):
 
             bot.send_message(message.chat.id, "Отлично.")
-            username = 'gaziz'
-            password = 'U*aYsi)sbPw6zdBZ'
+            username = '*****'
+            password = '**********'
             url = 'http://li79.ru/wp-json/wp/v2/posts/'
 
             credentials = username + ':' + password
