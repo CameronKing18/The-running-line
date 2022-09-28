@@ -4,7 +4,7 @@ import requests
 import json
 from wordpress import API
 
-bot = telebot.TeleBot("1732026255:AAGJDba75lrFhqNxUMHLXB9kZvdyeNsLKD8")
+bot = telebot.TeleBot("***************************************************")
 
 
 @bot.message_handler(commands=['start'])
@@ -18,7 +18,7 @@ def start(message):
 
 def start_2(message):
     bot.send_message(message.chat.id, "Введите сообщение", )
-    if "1" == message.text:
+    if "**********" == message.text:
         @bot.message_handler(content_types=["text"])
         def send_message(message):
 
